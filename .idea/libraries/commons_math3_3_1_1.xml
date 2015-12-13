@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="commons-math3-3.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/commons-math3-3.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-net-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/guava-11.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-annotations-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-auth-2.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

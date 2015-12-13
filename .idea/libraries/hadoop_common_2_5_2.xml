@@ -1,0 +1,28 @@
+<component name="libraryTable">
+  <library name="hadoop-common-2.5.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-common-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-hdfs-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-mapreduce-client-app-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-mapreduce-client-common-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-mapreduce-client-core-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-mapreduce-client-hs-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-mapreduce-client-hs-plugins-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-mapreduce-client-jobclient-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-mapreduce-client-jobclient-2.5.2-tests.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-mapreduce-client-shuffle-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-api-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-applications-distributedshell-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-applications-unmanaged-am-launcher-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-client-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-common-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-server-applicationhistoryservice-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-server-common-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-server-nodemanager-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-server-resourcemanager-2.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hadoop-yarn-server-web-proxy-2.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
