@@ -20,6 +20,7 @@ import java.io.IOException;
  */
 public class FileStatusTest {
 
+
     private String PATH = "/tong/core-site.xml";
     private FileSystem fs;
 

@@ -61,17 +61,19 @@ public class WordCount {
     }
 
 
+
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
-        args=new String[]{"/tong/input/input1/", "/output/wordcount3/"};
+        args=new String[]{"/tong/input", "/output/wordcount4/"};
 
         Configuration conf=new Configuration();
-        conf.addResource(new Path("/root/IdeaProjects/hadoop/conf/core-site.xml"));
-        conf.addResource(new Path("/root/IdeaProjects/hadoop/conf/yarn-site.xml"));
-        conf.addResource(new Path("/root/IdeaProjects/hadoop/conf/hdfs-site.xml"));
-        conf.addResource(new Path("/root/IdeaProjects/hadoop/conf/mapred-site.xml"));
+        conf.addResource(new Path("D:\\web\\hadoop2\\conf\\core-site.xml"));
+        conf.addResource(new Path("D:\\web\\hadoop2\\conf\\hdfs-site.xml"));
+        conf.addResource(new Path("D:\\web\\hadoop2\\conf\\mapred-site.xml"));
+        conf.addResource(new Path("D:\\web\\hadoop2\\conf\\yarn-site.xml"));
+//        conf.set("fs.default.name","hdfs://192.168.8.120");
         //必须加上这一句，不然hadoop2会出错
         //mr-jobhistory-daemon.sh start historyserver
-        conf.set("mapred.jar","/root/IdeaProjects/hadoop/out/artifacts/wordcount/wordcount.jar");
+//        conf.set("mapred.jar","D:\\web\\hadoop2\\out\\artifacts\\hadoop2_jar\\hadoop2.jar");
         String[] otherArgs = new GenericOptionsParser(conf, args).getRemainingArgs();
         if (otherArgs.length != 2) {
             System.err.println("Usage: wordcount <in> <out>");
