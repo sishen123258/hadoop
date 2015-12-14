@@ -16,6 +16,7 @@ import java.net.URL;
  */
 public class Hdfs {
 
+
     private static String PATH = "hdfs://localhost/tong/core-site.xml";
     //the code should be execute only once at per jvm , it should be put in a static block
     static{

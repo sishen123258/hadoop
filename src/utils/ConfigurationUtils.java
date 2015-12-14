@@ -8,6 +8,7 @@ import org.apache.hadoop.fs.Path;
  */
 public class ConfigurationUtils {
 
+
     private static Configuration conf;
 
     static  {
