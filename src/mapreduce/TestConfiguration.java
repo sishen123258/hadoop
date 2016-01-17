@@ -2,7 +2,6 @@ package mapreduce;
 
 
 import org.apache.hadoop.conf.Configuration;
-import org.testng.annotations.Test;
 
 /**
  * Created by Yue on 2015/12/10.

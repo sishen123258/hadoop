@@ -1,3 +1,4 @@
+/*
 package hbase;
 
 import org.apache.hadoop.conf.Configuration;
@@ -9,9 +10,11 @@ import org.apache.hadoop.hbase.util.Bytes;
 
 import java.io.IOException;
 
+*/
 /**
  * Created by Yue on 2015/12/6.
- */
+ *//*
+
 public class First {
 
     public static void main(String[] args) throws IOException {
@@ -31,3 +34,4 @@ public class First {
 
 
 }
+*/
