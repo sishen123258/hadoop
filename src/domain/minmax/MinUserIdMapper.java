@@ -44,7 +44,7 @@ public class MinUserIdMapper extends Mapper<Object,Text,LongWritable,NullWritabl
             context.write(new LongWritable(min),NullWritable.get());
         }
 
-        private Map parseLogToMap(String s) {
+        public static Map parseLogToMap(String s) {
 
             String[] dataList=s.toString().split("\t");
             Map userLogMap=new HashMap<String,String>();
