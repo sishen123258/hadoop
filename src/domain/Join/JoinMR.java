@@ -16,12 +16,13 @@ import java.io.IOException;
 
 /**
  * 当输入路径有对个时 MultipleInputs
+ *
  */
 public class JoinMR {
 
     public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
 
-        args=new String[]{ "/tong/sogo/split1","/tong/sogo/split2","/tong/sogo_join",};
+        args=new String[]{ "/tong/sogo/split1","/tong/sogo/split2","/tong/sogo_join"};
 
         Configuration conf=new Configuration();
         conf.addResource(new Path("/root/IdeaProjects/hadoop/conf/core-site.xml"));
@@ -76,7 +77,11 @@ public class JoinMR {
         }
     }
 
-
+    /**
+     * 这里的join是一对一得关联
+     * 在Reduce因为shuffle的存在，使得只会出现一对一和一对多的关联关系
+     *若是一对多，则使用list保存多的那个对象，然后再去构建例如xml和json这种层级结构的数据
+     */
     public static class JoinReduce extends Reducer<Text,Text,Text,NullWritable>{
         @Override
         protected void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
